@@ -1,0 +1,25 @@
+{
+  "name": "turno-pasaporte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/node-notifier": "^8.0.2",
+    "@types/puppeteer": "^5.4.5",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
